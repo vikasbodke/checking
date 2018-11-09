@@ -1,0 +1,54 @@
+{
+  "development": {
+    "architecture": {},
+    "frameworks": {},
+    "javadocs": {},
+    "circuit-breaker": {}
+  },
+  "deployment": {
+    "autoscaling": {},
+    "hardwareinfra": {},
+    "commonresources": {},
+    "dependentservices": {}
+  },
+  "documentation": {
+    "swagger": {},
+    "releasenotes": {},
+    "roadmapplan": {}
+  },
+  "identity": {
+    "name": "",
+    "description": "",
+    "ownership": {
+      "business": "",
+      "technology": ""
+    }
+  },
+  "business": {
+    "criticality": "",
+    "domain": ""
+  },
+  "operations": {
+    "service-hours": "",
+    "rota": "#ref",
+    "slo": {
+      "latency-in-milliseconds": ""
+    },
+    "ops-metrics": [
+      "metric1",
+      "metric2"
+    ],
+    "error-budget": {
+      "downtime": "1 hour",
+      "interval": "monthly"
+    }
+  },
+  "testing": {
+    "unit": {},
+    "functional": {},
+    "performance": {},
+    "operational": {},
+    "security": {},
+    "accessibility": ""
+  }
+}
